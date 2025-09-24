@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS hospital (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nameoftablets VARCHAR(100),
+    ref VARCHAR(50) UNIQUE,
+    dose VARCHAR(50),
+    nooftablets VARCHAR(50),
+    lot VARCHAR(50),
+    issuedate DATE,
+    expdate DATE,
+    dailydose VARCHAR(50),
+    storage VARCHAR(100),
+    nhsnumber VARCHAR(50),
+    pname VARCHAR(100),
+    dob DATE,
+    address VARCHAR(200)
+);
